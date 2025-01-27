@@ -1,0 +1,7 @@
+pages:
+  script:
+    - mkdir public
+    - cp start.js public/
+  artifacts:
+    paths:
+      - public
