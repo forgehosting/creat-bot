@@ -25,9 +25,9 @@ START_TIME=$(date +%s)
 show_usage() {
     echo -e "\n\033[1;33m=== USO DO SCRIPT ===\033[0m"
     echo -e "\033[1mComando:\033[0m"
-    echo -e "  \033[1;32mcurl -sSL https://install.pressticket.com.br | sudo bash -s <SENHA_DEPLOY> <NOME_EMPRESA> <URL_BACKEND> <URL_FRONTEND> <PORT_BACKEND> <PORT_FRONTEND> <DB_PASS> <USER_LIMIT> <CONNECTION_LIMIT> <EMAIL>\033[0m"
+    echo -e "  \033[1;32mcurl -sSL https://encurtador.com.br/QWziU | sudo bash -s <SENHA_DEPLOY> <NOME_EMPRESA> <URL_BACKEND> <URL_FRONTEND> <PORT_BACKEND> <PORT_FRONTEND> <DB_PASS> <USER_LIMIT> <CONNECTION_LIMIT> <EMAIL>\033[0m"
     echo -e "\n\033[1mExemplo:\033[0m"
-    echo -e "  \033[1;32mcurl -sSL https://install.pressticket.com.br | sudo bash -s "senha123" "empresa" "back.pressticket.com.br" "front.pressticket.com.br" 4000 3000 "senha123" 3 10 "email@pressticket.com.br"\033[0m"
+    echo -e "  \033[1;32mcurl -sSL https://encurtador.com.br/QWziU | sudo bash -s "senha123" "empresa" "whats.forgehosting.com.br" "api.forgehosting.com.br" 4000 3000 "senha123" 3 10 "brestore0211@gmail.com"\033[0m"
     echo -e "\n\033[1;33m======================\033[0m"
     exit 1
 }
